@@ -1,4 +1,4 @@
-
+import java.lang.Math;
 class Calculator {
 
     Calculator(){
@@ -54,7 +54,7 @@ class Calculator {
     if int a = 16 then this method returns: 10000
      */
     String intToBinaryNumber(int n){
-        return null;
+        return Integer.toBinaryString(n);
     }
 
     /*
