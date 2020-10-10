@@ -1,4 +1,6 @@
 import java.lang.Math;
+import java.util.UUID;
+
 class Calculator {
 
     Calculator(){
@@ -67,7 +69,7 @@ class Calculator {
      */
     String createUniqueID(String n){
 
-        return null;
+        return n+ UUID.randomUUID().toString();
     }
 
 
