@@ -15,6 +15,9 @@ public class Main {
             if (input[0].equals("subtract")) {
                 System.out.println(calc.subtract(Integer.parseInt(input[1]),Integer.parseInt(input[2])));
             }
+            if (input[0].equals("multiply")) {
+                System.out.println(calc.multiply(Integer.parseInt(input[1]),Integer.parseInt(input[2])));
+            }
             if (input[0].equals("divide")) {
                 System.out.println(calc.divide(Integer.parseInt(input[1]),Integer.parseInt(input[2])));
             }
