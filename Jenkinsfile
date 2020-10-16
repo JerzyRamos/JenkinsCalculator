@@ -1,6 +1,6 @@
 pipeline {
     environment {
-            registry = "57pixels/jekins-calculator"
+            registry = "57pixels/jenkins-calculator"
             registryCredential = 'dockerhub'
             dockerImage=''
     }
@@ -65,7 +65,12 @@ pipeline {
             }
         }
 
-       
+        stage ('Remove unused docker image') {
+            steps {
+                sh "docker rmi $registry:$BUILD_NUMBER"
+            }
+        }
+
     }
 
     post {
