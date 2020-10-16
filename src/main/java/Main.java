@@ -1,6 +1,8 @@
 public class Main {
     public static void main(String[] args) {
         Calculator calc = new Calculator();
+        System.out.println("Hi! Welcome to Jenkins Calculator!");
+        System.out.println("Please enter a command: ");
         if (args[0].equals("add")) {
             System.out.println(calc.add(Integer.parseInt(args[1]),Integer.parseInt(args[2])));
         }
