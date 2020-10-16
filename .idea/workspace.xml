@@ -5,12 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ccca33a-e96e-469b-9880-85f69c3f39fb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,7 +51,15 @@
       <recent name="C:\Users\xris\Desktop\Winter 2020\Cs 340\IntelljProjects\JenkinsCalculator\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="JenkinsCalculator" />
+      <option name="PROGRAM_PARAMETERS" value="add 1 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JenkinsCalculator" />
       <option name="PACKAGE_NAME" value="" />
@@ -72,8 +89,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.CalculatorTest" />
+      <item itemvalue="JUnit.CalculatorTest.divideTest" />
+      <item itemvalue="JUnit.CalculatorTest.fibonacciTest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.CalculatorTest.fibonacciTest" />
         <item itemvalue="JUnit.CalculatorTest.divideTest" />
@@ -106,6 +130,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="760" y="274" key="#Project_Structure/0.0.2560.1400@0.0.2560.1400" timestamp="1602304028535" />
+    <state x="1253" y="437" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602820927180">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1253" y="437" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1602820927180" />
     <state x="907" y="277" key="CommitChangelistDialog2" timestamp="1602304251863">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -114,30 +142,34 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1602304759241" />
-    <state width="1234" height="401" key="GridCell.Tab.0.bottom" timestamp="1602819941730">
+    <state width="1234" height="401" key="GridCell.Tab.0.bottom" timestamp="1602820902270">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1602819941730" />
-    <state width="1234" height="401" key="GridCell.Tab.0.center" timestamp="1602819941730">
+    <state width="1234" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1602820902270" />
+    <state width="1234" height="401" key="GridCell.Tab.0.center" timestamp="1602820902270">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1602819941730" />
-    <state width="1234" height="401" key="GridCell.Tab.0.left" timestamp="1602819941729">
+    <state width="1234" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1602820902270" />
+    <state width="1234" height="401" key="GridCell.Tab.0.left" timestamp="1602820902270">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1602819941729" />
-    <state width="1234" height="401" key="GridCell.Tab.0.right" timestamp="1602819941730">
+    <state width="1234" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1602820902270" />
+    <state width="1234" height="401" key="GridCell.Tab.0.right" timestamp="1602820902270">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1602819941730" />
+    <state width="1234" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1602820902270" />
     <state x="810" y="355" key="Maven.ArtifactSearchDialog" timestamp="1602304904940">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="810" y="355" key="Maven.ArtifactSearchDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1602304904940" />
-    <state x="760" y="274" key="SettingsEditor" timestamp="1602305073882">
+    <state x="760" y="274" key="SettingsEditor" timestamp="1602820920870">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="760" y="274" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1602305073882" />
+    <state x="760" y="274" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1602820920870" />
+    <state x="1455" y="373" key="run.anything.popup" timestamp="1602820918841">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1455" y="373" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1602820918841" />
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1602304806414">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
